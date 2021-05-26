@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "vite-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,10 +17,14 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "slow:start": "react-scripts start",
+    "slow:build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "typecheck": "tsc"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vite": "^2.3.4"
   }
 }

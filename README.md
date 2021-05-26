@@ -1,12 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with Vite React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+And [vitejs](https://vitejs.dev/)
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -28,6 +29,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run serve`
+
+Locally preview the production build
 
 ### `npm run eject`
 
